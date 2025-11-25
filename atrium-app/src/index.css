@@ -70,11 +70,11 @@ img {
 
 a {
   font-weight: 500;
-  color: #1f2482;
+  color: #5259e1;
   text-decoration: inherit;
 }
 a:hover {
-  color: #171c71;
+  color: #4b52df;
 }
 
 body {
@@ -101,7 +101,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #141860;
+  border-color: #3f46c9;
 }
 button:focus,
 button:focus-visible {
@@ -114,7 +114,7 @@ button:focus-visible {
     background-color: #242424;
   }
   a:hover {
-    color: #13186f;
+    color: #3d44c4;
   }
   button {
     background-color: #1a1a1a;

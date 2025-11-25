@@ -6,12 +6,11 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <Router>
-      <div className="min-h-screen bg-white">
+    <Router basename="/Home-Page">
+      <div className="bg-white pt-24">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* Expand: <Route path="/about" element={<About />} /> */}
         </Routes>
         <Footer />
       </div>
@@ -20,3 +19,4 @@ function App() {
 }
 
 export default App;
+

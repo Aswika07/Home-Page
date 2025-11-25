@@ -5,7 +5,6 @@ import building6 from '../../assets/building6.jpg';
 import building7 from '../../assets/building7.jpg';
 import building8 from '../../assets/building8.jpg';
 
-// --- Project Data ---
 const projects = [
   {
     title: 'Urban Tower',
@@ -60,9 +59,7 @@ const OurProjects = () => {
                 />
               </div>
 
-              {/* Content Container */}
               <div className="w-full lg:w-3/5 p-8 flex flex-col justify-center relative">
-                 {/* Decorative background number */}
                  <span className="absolute top-4 right-6 text-6xl font-bold text-gray-50 opacity-50 select-none">
                    0{index + 1}
                  </span>
